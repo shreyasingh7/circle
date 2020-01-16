@@ -11,4 +11,5 @@ jobs:
       - checkout
       - run: npm install
       - run: npm run test
+      - run: docker-compose==1.12.0
       
