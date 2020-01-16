@@ -16,7 +16,7 @@ describe('User entity', () => {
             bcrypt.hash.mockReturnValue('testPassword');
             expect(bcrypt.hash).not.toHaveBeenCalled();
             const result = await user.validatePassword('13564');
-            expect(bcrypt.hash).toHaveBeenCalledWith('135646', 'testSalt');
+            expect(bcrypt.hash).toHaveBeenCalledWith('13564', 'testSalt');
             expect(result).toEqual('testPassword');
         });
         it('returs false as password is invalid', async () => {
