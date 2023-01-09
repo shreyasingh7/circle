@@ -22,7 +22,7 @@
   "dependencies": {
     "@nestjs/common": "^6.10.1",
     "@nestjs/core": "^6.10.1",
-    "@nestjs/jwt": "^6.1.1",
+    "@nestjs/jwt": "^10.0.1",
     "@nestjs/microservices": "^6.8.4",
     "@nestjs/passport": "^6.1.0",
     "@nestjs/platform-express": "^6.7.2",
@@ -42,7 +42,7 @@
     "hbs": "^4.0.3",
     "node-sass-middleware": "^0.11.0",
     "passport": "^0.4.0",
-    "passport-jwt": "^4.0.0",
+    "passport-jwt": "^4.0.1",
     "pg": "^7.12.1",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.0",
